@@ -15,7 +15,7 @@ def age_appropriate_birthday(birthday_kids)
   message = ""
   birthday_kids.each do |kids_name, age|
     if age <= 12 
-      message << "Happy Birthday #{kids_name}! You are now #{age} years old!"
+      puts message << "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
    end 
 end
