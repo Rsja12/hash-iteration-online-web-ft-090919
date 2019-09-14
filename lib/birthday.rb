@@ -17,7 +17,7 @@ def age_appropriate_birthday(birthday_kids)
     if age <= 12 
       message << "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
-    p message
+    puts message
    end 
 end
 
